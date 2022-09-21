@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Templete</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a>Contact</li>
+
+        </ul>
+        <img src="./images/img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+
+
+
+    <header>
+
+        <div class="header-content">
+            <h2>Explore the Colorful World</h2>
+            <div class="line"></div>
+            <h1>A Wonderful Gift</h1>
+            <a href="#" class="ctn">Learn more</a>
+        </div>
+    </header>
+
+    <!-- Event -->
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming event</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./images/img/img1.png" alt="">
+                <h4>Everest camp trek</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./images/img/img2.png" alt="">
+                <h4>Walking Holidays</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+        <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, labore voluptatem consequatur totam numquam pariatur? Nesciunt in modi nobis exercitationem dolorum, ea ipsa. Nesciunt, labore dolore ad ut sed officiis.</P>
+        <a href="#" class="ctn">Learn More</a>
+    </div>
+    </section>
+
+    <section>
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS AND & DESTINATION</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium sint nemo est vel libero autem porro, at sunt expedita animi iure deleniti veniam iusto pariatur quidem necessitatibus. Sapiente, obcaecati similique!</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./images/img/img3.png" alt="">
+                    <img src="./images/img/img4.png" alt="">
+                    <img src="./images/img/img5.png" alt="">
+                    <img src="./images/img/img6.png" alt="">
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="footer">
+        <p>Logicrays aceadmy safal complex AMD | Phone:9106733266 | Email:gordeep23@gmail.com </p>
+        <p>Developed by: Dip Gor</p>
+    </section>
+
+
+
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+
+        })
+    </script>
+
+</body>
+
+</html>
